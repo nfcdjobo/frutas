@@ -18,17 +18,17 @@
     90%{ background-image: url(../images/font/APF-b.jpg); background-size: cover cover; }
     100%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
 }
-div.contenair div.banniere2 div.after:after{  content: "";  font-size: 1.5rem; font-weight: bolder; animation: fud-name infinite 20s; -webkit-text-stroke: 2px; }
+div.contenair div.banniere2 div.after:after{  content: "Le Foufou au pays AKAN (Origine: Ghana et Côte d'Ivoire)";  font-size: 1.5rem; font-weight: bolder; animation: fud-name infinite 20s; -webkit-text-stroke: 2px; }
 @keyframes fud-name {
-    0%{ content: "Sauce Arrachide friandisée";  -webkit-text-stroke-color: rgb(0, 0, 0); color: #ffffff; }
+    0%{ content: "Le Foufou au pays AKAN (Origine: Ghana et Côte d'Ivoire)";  -webkit-text-stroke-color: rgb(0, 0, 0); color: #ffffff; }
     15%{ /* content: "58"; */ }
-    25%{ content: "Le foutou de Banane plantin"; -webkit-text-stroke-color: rgb(255, 0, 0); color: #000000; }
+    25%{ content: "Le Kabato au Pays Madingue (Origine: Mali, Côte d'Ivoire et Burkina Fasso)"; -webkit-text-stroke-color: rgb(255, 0, 0); color: #000000; }
     35%{ /* content: "00"; */ }
-    50%{ content: "La sauce de Tomates Africaines"; -webkit-text-stroke-color: rgb(0, 47, 255); color: #ffe100; }
+    50%{ content: "Le Tchep Gen des Diop (Origine: Sénégal)"; -webkit-text-stroke-color: rgb(0, 47, 255); color: #ffe100; }
     65%{ /* content: "88"; */ }
-    75%{ content: "Attiéké Ivoirien"; -webkit-text-stroke-color: rgb(0, 255, 13); color: #ff00cc; }
+    75%{ content: "Le Foutou Royal Chez de la Côte d'Ivoire"; -webkit-text-stroke-color: rgb(0, 255, 13); color: #ff00cc; }
     85%{ /* content: "03.2"; */ }
-    90%{ content: "Le Riz Sauté PLongé"; -webkit-text-stroke-color: rgb(255, 0, 208); color: #ffe100; }
+    90%{ content: "L'Attiéké-Poission-Fummé de la Côte d'Ivoire (APF)"; -webkit-text-stroke-color: rgb(255, 0, 208); color: #ffe100; }
     100%{ /* content: "ADJEKE POISSON BRAISE (APF)"; */ }
 }
 .banniere2 .plateform{ font-weight: bolder; font-family:magneto; padding-top: 8rem; color: white; -webkit-text-stroke: 2px; -webkit-text-stroke-color: orange; }

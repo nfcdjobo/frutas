@@ -18,7 +18,7 @@
     90%{ background-image: url(../images/font/APF-b.jpg); background-size: cover cover; }
     100%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
 }
-div.contenair div.banniere2 div.after:after{  content: "Le Foufou au pays AKAN (Origine: Ghana et Côte d'Ivoire)";  font-size: 1.5rem; font-weight: bolder; animation: fud-name infinite 20s; -webkit-text-stroke: 2px; }
+div.contenair div.banniere2 div.after:after{  content: "Le Foufou au pays AKAN (Origine: Ghana et Côte d'Ivoire)";  font-size: 1.5rem; font-weight: bolder; animation: fud-name infinite 20s; -webkit-text-stroke: 2px;  }
 @keyframes fud-name {
     0%{ content: "Le Foufou au pays AKAN (Origine: Ghana et Côte d'Ivoire)";  -webkit-text-stroke-color: rgb(0, 0, 0); color: #ffffff; }
     15%{ /* content: "58"; */ }
@@ -35,9 +35,7 @@ div.contenair div.banniere2 div.after:after{  content: "Le Foufou au pays AKAN (
 .banniere2 .plateform span{ color: black; -webkit-text-stroke: 2px; -webkit-text-stroke-color: rgb(255, 255, 255); }
 .banniere2 .slogan{ padding-bottom: 8rem; font-size: 2rem; font-weight: 700; -webkit-text-stroke: .5px; -webkit-text-stroke-color: rgb(255, 255, 255); }
 .banniere2 .slogan span{ outline: none; color: white; -webkit-text-stroke: 1px; -webkit-text-stroke-color: orange; font-weight: bolder; font-family:magneto; }
-
 @media screen and (max-width: 570px) { .contenair{ top: 3.1rem; } }
-
 div.banniere-presentation{ display: flex; justify-content: center; position: relative; flex-wrap: wrap; width: 100%; margin: 10px auto 0; max-width: 1425px; background-color: rgb(233, 216, 186); border-radius: 1rem 1rem 0 0; }
 div.banniere-presentation div.presentation{ background-color:aquamarine ;width: 48%; margin: 5px; overflow: hidden; flex-shrink: 0;border: 1px solid red;box-shadow: .1px .1px 1px 1px rgb(255, 255, 255);border-radius: 1rem;padding: 5px; }
 #presentation{background-clip: border-box; animation: change-backgroud infinite 2s; }
@@ -50,7 +48,7 @@ div.banniere-presentation div.presentation{ background-color:aquamarine ;width: 
 }
 div.banniere-presentation div.presentation video{ width: 100%; border-radius: 1rem; border: 1px solid black; }
 .pub{ width: 100%; margin:5px auto; border-radius: 1rem;}
-#contact{ background-image: url(../images/font/cuisine-1.webp); background-size: cover; justify-content: center; background-repeat: no-repeat; align-items: center; text-align: center; animation: change_background_banniere2 infinite 20s; }
+#contact{ background-image: url(../images/font/cuisine-1.webp); height: 24rem; background-size: cover; justify-content: center; background-repeat: no-repeat; align-items: center; text-align: center; animation: change_background_banniere2 infinite 20s; }
 @keyframes change_background_banniere2 {
     0%{ background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; }
     15%{ /* background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; */ }
@@ -63,38 +61,16 @@ div.banniere-presentation div.presentation video{ width: 100%; border-radius: 1r
     90%{ background-image: url(../images/font/APF-b.jpg); background-size: cover cover; }
     100%{ background-image: url(../images/font/a-foutou.jpg); background-size: cover cover; }
 }
-
 div.banniere-presentation2{ display: flex; justify-content: center; position: relative; flex-wrap: wrap; width: 100%; margin: 10px auto 0; max-width: 900px;  border-radius: 1rem 1rem 0 0; }
 div.banniere-presentation2 div.presentation2{ background-color:orange ;width: 100%; margin: 5px; overflow: hidden; flex-shrink: 0;border: 1px solid red;box-shadow: .1px .1px 1px 1px rgb(255, 255, 255);border-radius: 1rem;padding: 5px; }
 div.presentation2 video{ width: 100%; height: auto; border: 1px solid blueviolet; border-radius: 1rem;}
-
 .contact p.title{ justify-content: center; align-items: center; text-align: center; margin: 1rem auto; border: 2px solid orange; padding: .3rem; width: 12rem; border-radius: 10px; }
 .contact p.title:hover{ color: white; background-color: orange; border: 2px solid white; }
 div.contact div.icon-contact{ align-items: center; justify-content: center; text-align: center;  margin-top:  1.5rem ; }
 div.contact div.icon-contact a{margin: 10%; }
 div.contact div.icon-contact img{width: 1.8rem; }
-
-div.galerie-video{ 
-    display: flex; 
-    justify-content: center; 
-    position: relative; 
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 20px auto 0;
-    max-width: 1425px;
-    background-color: rgb(233, 216, 186); 
-}
-.item-video{ 
-    width: 261px;
-     height: auto;
-    margin: 10px;
-    overflow: hidden;
-    flex-shrink: 0;
-    box-shadow: .1px .1px 1px 1px rgb(0, 0, 0, .7);
-    border-radius: 1rem;
-    border: 2px solid white; 
-}
-
+div.galerie-video{ display: flex; justify-content: center; position: relative; flex-wrap: wrap;width: 100%;margin: 20px auto 0;max-width: 1425px;background-color: rgb(233, 216, 186); }
+.item-video{ width: 261px; height: auto;margin: 10px;overflow: hidden;flex-shrink: 0;box-shadow: .1px .1px 1px 1px rgb(0, 0, 0, .7);border-radius: 1rem;border: 2px solid white; }
 .item-video a{ color: black; }
 .item-video video{ outline: none; width: 100%; top: -2rem; border: 2px solid orange; background-color: #000000; border-radius: 1rem 1rem 0 0;}
 .item-video img{ position: relative; top: -6rem;  margin: 0 auto;  left: 40%; width: 2rem; }

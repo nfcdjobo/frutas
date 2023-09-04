@@ -14,7 +14,7 @@ ul{ list-style: outside none none; margin: 0; padding: 0; }
 .nav-bar div.nav-links ul li a:hover{ color: rgb(0, 0, 0); border-bottom: 2px solid red; border-left: 2px solid red; border-right: 2px solid red; padding: 0 4px; border-radius: 5px; }
 .nav-bar div.nav-links ul li form input{ outline: none; padding: 5px 5px; border-radius: 5px; border: none; }
 .nav-bar div.nav-links ul li form input:focus{ outline: none; padding: 3px 5px; border-radius: 5px; border: 2px solid orange; box-shadow: .1px .1px 1px 2px rgb(255, 255, 255); color: rgb(255, 136, 0); }
-.nav-bar .menu{ display: none; position: absolute;  right: 0rem; width: 50px; }
+.nav-bar .menu{ display: none; position: absolute;  right: 0rem; width: 30px; margin: 5px; }
 
 @media screen and (max-width: 570px) {
     .nav-bar{ padding: 0; }
